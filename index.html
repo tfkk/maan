@@ -22,10 +22,10 @@
         <div class="nav-links" id="navLinks">
           <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
           <ul>
-            <li><a href="index.html" onclick="hideMenu()">Strona główna</a></li>
-            <li><a href="#purchasing" onclick="hideMenu()">Zakupy</a></li>
-            <li><a href="#qc" onclick="hideMenu()">Kontrola Jakości</a></li>
-            <li><a href="#warehouse" onclick="hideMenu()">Magazyn</a></li>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="#purchasing">Zakupy</a></li>
+            <li><a href="#qc">Kontrola Jakości</a></li>
+            <li><a href="#warehouse">Magazyn</a></li>
           </ul>
         </div>
         <i class="fa-solid fa-bars" onclick="showMenu()"></i>
@@ -34,9 +34,9 @@
       <div class="text-box">
         <h1>Raport tygodniowy działu zakupów</h1>
         <p>
-          Ponizej znajduje się raport tygodniowy, w którym przedstawiam obraz
+          Poniżej znajduje się raport tygodniowy, w którym przedstawiam obraz
           sytuacji<br />
-          w jakiej znajdują się wszystkie działy za który jestem odpowiedzialna
+          w jakiej znajdują się wszystkie działy, za które jestem odpowiedzialna
           w firmie MAAN.
         </p>
         <a href="#purchasing" class="hero-btn">Przejdź do raportu</a>
@@ -48,17 +48,163 @@
     <section class="purchasing" id="purchasing">
       <h1>Co dzieje się w zakupach?</h1>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab explicabo
-        vel consectetur soluta officia minima eveniet in rem sit tempore ex
-        facere obcaecati reiciendis voluptate, reprehenderit eaque laboriosam
-        cum quidem. Ducimus cumque voluptate eius officiis recusandae, quaerat
-        explicabo quos magnam eum? Sint praesentium a dolorum quis beatae sit,
-        error quo culpa vel saepe facilis ex? Perspiciatis laborum quaerat magni
-        dolorem? Sed cumque eveniet, alias quae dolore odio. Placeat expedita
-        voluptates mollitia vero corporis quae dicta, molestiae ducimus.
-        Corporis unde animi sed perspiciatis illo dolores atque tempora soluta
-        iusto sunt. Laboriosam.
-      </p>
+        <ul>
+          <li>Rekrutacje – Zakupy. </li>
+            <li>20/10 będzie wszystko pod 100 szt. 100 szt wyszło za ok 95,55 PLN (5,6 USD za komponenty + 11,90 USD za Cyperess + 8,05 PLN za montaż) Teraz zakupiliśmy 1900 szt CY8C4127AZI-S455 w cenie 8.10 USD (5,6 USD + 8,10 USD + 8,05 PLN). 6000 szt na przyszły rok wyjdzie za (5,29 USD + 3,4 Cypress od producenta + 8,05 za monataż)
+              Oto FA za pierwsze 100 szt
+              - pierwsza pozycja Slidery
+              - druga pozycja szablon
+              - trzecia pozycja koszty dostawy do nas
+              - czwarta pozycja koszty uruchomienia
+              - ostatnia pozycja to dodatkowe koszty związane ze ściągnięciem towaru (PCB samolot 500 USD; 170 USD inne komponenty)
+              Na przyszłość pozycji 2 4 i 5 nie będzie.</li>
+              </ul>
+              <img src="./images/slider.png" alt="">
+            <ul>
+            <li>Forma Soft Touch nie jest ok. Pan Michał Zwierzyński zlecił jej poprawę. Protokół nie został podpisany, ale zlecone zostały na piśmie porwaki.  Na razie za formę nie płacimy.</li>
+            <li>Soft Toucha2,0. – mam wyceny. Cena w NORD ok 13,50 USD. Poprosiłam o ofertę na 10 szt próbek. Muszę wykupić komponenty które zamówiłam w marcu w Masters tj:</li>
+          <table>
+            <table>
+              <tr>
+                <th>Kod towaru</th>
+                <th>Nazwa towaru</th>
+                <th>Cena</th>
+                <th>Waluta</th>
+                <th>Wartość do realizacji</th>
+              </tr>
+              <tr>
+                <td>LED1202QTR</td>
+                <td>LED1202QTR do Slider</td>
+                <td>0,72</td>
+                <td>USD</td>
+                <td>5760</td>
+              </tr>
+              <tr>
+                <td>CY8C4146AZI-S455</td>
+                <td>CY8C4146AZI-S455 do Slider</td>
+                <td>3,4</td>
+                <td>USD</td>
+                <td>27200</td>
+              </tr>
+          </table>
+          <li>Obudowy klosze i zaślepki do pasków led - > SMART próbki powinny byś w tym tygodniu gotowe.
+          </li>
+            <li>Zdrożały NITY 3x6 z firmy  SCELL-IT z 18,33 na 20,06. 11/10 przyjedzie Pan z Marcopolu aby testować ich nity. Cena Marcopol 15,90 pln. - > niestety nity nie nadają się
+            </li>
+            <li>Zbieramy próbki farb. AKZONOBEL farba nie nadaje się ale będzie spotkanie na kótórym porozmawiamy o szczegółach. KABE (w piątek 14/10 było spotkanie)  ok cena 19,90 pln ale za bardzo matowa, czekamy na nową próbkę (będzie gotowa w połowie miesiąca).
+            </li>
+            <li>Tiger wystawił korekty do ceny na kwotę 1654,35 EUR. 
+            </li>
+            <li>Mamy problem z przyciskami srebrnymi - > towar utknął u dostawcy w Chinach bo jest tam zamknięta strefa - > COVID. Poza tym zmniejszyliśmy SM licząc że będzie za to duży wzrost zapotrzebowania na przełączniki czarne. Trzeba przełączniki czarne wpiąć do technologii bo ten temat nie został dokończony. Wysłano 4900 szt przycisków srebrnych samolotem - > 385,88 USD koszt transportu powinny byś w tym tygodniu.
+            </li>
+            <li>Mamy problem z przełącznikami kołyskowymi do Corony - > towar nie wypłynął o czasie z Chin. Przełączniki będą 25/10.
+            </li>
+            <li>Mieliśmy awarię formy - > zleciliśmy jej naprawę - > 1800 PLN netto - > już jest naprawiona
+            </li>
+            <li>Wprowadzamy usprawnienie w systemie - > stany minimalne będą się automatem przeliczać każdego 1 dnia miesiąca. W planie mamy uruchomienie pętli ERP aby automatem kreować zapotrzebowania do dostawców. Dodatkowo aby zapobiec pomyłkom w wysyłkach zgłosiliśmy wgranie do systemu przy naszych indeksach indeksy od dostawców.
+            </li>
+            <li>Sprawdzamy ceny kartonów czy mamy na odpowiednim poziomie - > mamy ofertę od konkurencji firma ASKartony - > będziemy analizować.
+            </li>
+            <li>
+              Wentelon – sprawdzamy próbki
+              <table id="wentelon">
+                <tr>
+                  <td>S8015</td>
+                  <td>copper wire aim at B hoods</td>
+                </tr>
+                <tr>
+                  <td>S8020</td>
+                  <td>copper wire aim at B hoods</td>
+                </tr>
+              </table>
+            </li>
+            <li>
+              W turbinie 6s wyniki są podobne jak te które deklaruje dostawca. Filip sprawdza też te silniki w turbinie 15SK28, później zamontuję je w okapie, przebada głośność i takie pełne porównanie podamy w raporcie.
+            </li>
+        </ul>
+        <h2>Sprzedaż vs magazyn</h2>
+          <img id="magazyny" src="./images/magazyny.png" alt="">
+          <img src="./images/sVSzak.png" alt="">
+          <img src="./images/sprzedaz.png" alt="">
+        <ul>
+          <li>Wskaźnik rotacji zapasów – poprawa 34,63 dni - >dzięki wysokiej sprzedaży</li>
+        </ul>
+        <img id="wrz" src="./images/wrz.png" alt="">
+        <ul>
+          <li>Największe przyjęcia w 41 tygodniu.</li>
+        </ul>
+     <table>
+          <tr>
+            <th>Dostawca</th>
+            <th>Suma z netto</th>
+          </tr>
+          <tr>
+            <td>FENU2</td>
+            <td>578 898,04</td>
+          </tr>
+          <tr>
+            <td>NORDES - NORD ELEKTR</td>
+            <td>57 398,80</td>
+          </tr>
+          <tr>
+            <td>CONVEX</td>
+            <td>47 379,13</td>
+          </tr>
+          <tr>
+            <td>WOK</td>
+            <td>46 202,90</td>
+          </tr>
+          <tr>
+            <td>METAL-IMPORT</td>
+            <td>36 962,20</td>
+          </tr>
+          <tr>
+            <td>ARCELORMITTAL- SPLIT</td>
+            <td>30 786,70</td>
+          </tr>
+          <tr>
+          <td>JU-PITER JACEK</td>
+          <td>29 921,50</td>
+        </tr>
+        <tr>
+          <td>ELMAK</td>
+          <td>29 900,00</td>
+        </tr>
+        <tr>
+          <td>PIMETZOO</td>
+          <td>27 549,27</td>
+        </tr>
+        <tr>
+          <td>GAZGROD PLUS</td>
+          <td>23 650,00</td>
+        </tr>
+        <tr>
+          <td>PROTECH OXYPLAST</td>
+          <td>18 925,00</td>
+        </tr>
+        <tr>
+          <td>VINPLAS</td>
+          <td>16 603,14</td>
+        </tr>
+        <tr>
+          <td>MARCOPOL</td>
+          <td>11 764,80</td>
+        </tr>
+        <tr>
+          <td>TIGER</td>
+          <td>11 260,06</td>
+        </tr>
+        <tr>
+          <td>TOT ZEMBRZUSKI</td>
+          <td>10 526,40</td>
+        </tr>
+        <tr>
+          <td>HERBETKO</td>
+          <td>10 438,50</td>
+        </tr>
+      </table>
+    </p>
+    
     </section>
 
     <!-- Quality control section -->
@@ -66,16 +212,7 @@
     <section class="qc" id="qc">
       <h1>Kontrola Jakości</h1>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab explicabo
-        vel consectetur soluta officia minima eveniet in rem sit tempore ex
-        facere obcaecati reiciendis voluptate, reprehenderit eaque laboriosam
-        cum quidem. Ducimus cumque voluptate eius officiis recusandae, quaerat
-        explicabo quos magnam eum? Sint praesentium a dolorum quis beatae sit,
-        error quo culpa vel saepe facilis ex? Perspiciatis laborum quaerat magni
-        dolorem? Sed cumque eveniet, alias quae dolore odio. Placeat expedita
-        voluptates mollitia vero corporis quae dicta, molestiae ducimus.
-        Corporis unde animi sed perspiciatis illo dolores atque tempora soluta
-        iusto sunt. Laboriosam.
+       
       </p>
     </section>
 
@@ -84,16 +221,27 @@
     <section class="warehouse" id="warehouse">
       <h1>Magazyn</h1>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab explicabo
-        vel consectetur soluta officia minima eveniet in rem sit tempore ex
-        facere obcaecati reiciendis voluptate, reprehenderit eaque laboriosam
-        cum quidem. Ducimus cumque voluptate eius officiis recusandae, quaerat
-        explicabo quos magnam eum? Sint praesentium a dolorum quis beatae sit,
-        error quo culpa vel saepe facilis ex? Perspiciatis laborum quaerat magni
-        dolorem? Sed cumque eveniet, alias quae dolore odio. Placeat expedita
-        voluptates mollitia vero corporis quae dicta, molestiae ducimus.
-        Corporis unde animi sed perspiciatis illo dolores atque tempora soluta
-        iusto sunt. Laboriosam.
+        <h3>W tym tygodniu nie ma planowanych urlopów.</h3>
+        <br>
+        <li>PZ-Przyjęcia zewnętrze robione na bieżąco- brak zaległości.
+        </li>
+            <li>WZK-robione na bieżąco, brak zaległości.
+            </li>
+            <li>ZWM- dokumenty które są to towar specyfikacje które mają wyjechać dzisiaj.
+            </li>
+            <li>PW- Jest parę dokumentów, część towaru przyjmiemy dzisiaj, a część jeszcze do mnie nie zjechała.
+            </li>
+            <li>
+            RW- wydawane na bieżąco, brak zaległości.
+            </li>
+            <li>MMW- brak zaległości.
+            </li>
+            <li>MMP-okapy staramy się  przyjmować na bieżąco. Mamy 1 dokument zwrotu z produkcji, dzisiaj go ogarniemy.
+            </li>
+            <li>Wydania, realizowane według ustaleń.
+            </li>
+            <li>Od 2.11.2022 będzie z nami nowy magazynier. Ma doświadczenie na wysokim składzie.</li>
+            <li>W momencie gdy mam trochę czasu robimy inwentaryzację szyb. Regał 42 mam zakończony.</li>
       </p>
     </section>
     <script src="./js/script.js"></script>
