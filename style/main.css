@@ -181,7 +181,7 @@ th {
 /* Purchasing section */
 
 .purchasing {
-  width: 80%;
+  width: 70%;
   height: 100%;
   margin: auto;
   padding-top: 100px;
@@ -203,16 +203,6 @@ p {
   text-align: left;
 }
 
-.btn {
-  padding: 10px 60px;
-  background: #f5bd44;
-  border: 0;
-  outline: none;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: 400;
-  border-radius: 30px;
-}
 h2 {
   text-align: center;
 }
@@ -254,6 +244,48 @@ p {
 /* Warehouse section */
 
 .warehouse {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 15px;
+}
+
+/* wskazniki section */
+
+.wskazniki {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 15px;
+}
+
+.w_realizacji {
   width: 70%;
   height: 100%;
   margin: auto;

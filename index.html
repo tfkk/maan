@@ -13,6 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <title>Luiza Jędrzejak - Raport tygodniowy MAAN</title>
+    <script src="./js/script.js"></script>
   </head>
   <body>
     <!-- Home page section -->
@@ -24,13 +25,14 @@
           <ul>
             <li><a href="index.html">Strona główna</a></li>
             <li><a href="#purchasing">Zakupy</a></li>
+            <li><a href="./pages/wskazniki.html#wskazniki">Wskaźniki</a></li>
+            <li><a href="./pages/w_realizacji.html#w_realizacji">W realizacji</a></li>
             <li><a href="#qc">Kontrola Jakości</a></li>
             <li><a href="#warehouse">Magazyn</a></li>
           </ul>
         </div>
         <i class="fa-solid fa-bars" onclick="showMenu()"></i>
       </nav>
-
       <div class="text-box">
         <h1>Raport tygodniowy działu zakupów</h1>
         <p>
@@ -49,23 +51,16 @@
       <h1>Co dzieje się w zakupach?</h1>
       <p>
         <ul>
-          <li>Rekrutacje – od 21/11 do działu Zakupów dołączy p. Jacek Chodnicki</li>
-            <li>
-              Kierowcy zgłaszają potrzebę zakupu wózka paletowego elektrycznego: <br>
-              Oto oferta: <br>
-              <img src="./images/wozek.png" alt="">
-            </li>
+          <li>Mamy problem z dostępnością WKRO4X3 do Coron. Częściowo używamy starego typu wkręty ale zabraknie nam na ten miesiąc na 657 okapów (z 1527 szt od 15/11). Umówiłam się z dostawcą na telefon w środę 16/11 może coś zaradzi. Na razie mają linie zajęte produkcję dla KIA.</li>
+          <li>Rekrutacje – od 21/11 do działu Zakupów dołączy p. Jacek Chodnicki. Od 5/12 dołączy do magazyny p. Krzysztof Jankowski</li>
         </ul>
             <ul>
-            <li>Soft Touch2,0. –Cena w NORD ok 13,50 USD. Czekamy na prototyp. Mikroprocesory otrzymali. Różnica między Soft Touch 1.0 a 2.0 -> 48,5PLN vs 70,32 PLN
-             <br><b>Jakie są prognozy na SOFT TOUCH 2.0?<br>
-              Mamy 4800 szt mikroprocesorów do kiedy nam to starczy?
-            </b></li>
-            <li>Mamy problem z uzyskaniem potwierdzenia na filtry do ELB dla Beko.</li>
-            <li>
-              Mamy reklamację żarówek Beko. Podobno żarówki nie są zgodne z normą i szkło nie wytrzymuje określonej siły nacisku. Niestety nie przyjęli tej reklamacji tłumacząc iż Fabryka produkująca żarówki nie stosuje tego wymogu u siebie. Są OEM Philipsa i Philips dostaje takie same żarówki – to jest u nich standardowy produkt i nie zmienia go. Nie dostosują się do wymagań normy i klienta niestety. Dodatkowo podważają fakt, że Arcelik dostał kiedykolwiek produkt, który przeszedł tego typu testy napisali, że jeśli mają taką żarówkę to niech wyślą próbki oni je zbadają.
+            <li>Filtry do ELB dla BEKO -> koniec 47 tygodnia. Musimy jeszcze dopracować temat kartonów -> dzisiaj zaakceptowaliśmy rysunki.</li>
+            <li>Poszukujemy żarówek dla BEKO.
             </li>
-            <li>Obudowy klosze i zaślepki do pasków led - > SMART dostarczył próbkę. <b> 9/11 o godz. 11.00 spotkanie.</b><br>
+            <li>Obudowy klosze i zaślepki do pasków led - > SMART dostarczył próbkę.
+             <br> Na wstępie przesłałam NDI do podpisu. Po podpisaniu umówimy się na kolejne spotkanie.
+            </b><br>
             </li>
             <li>Ceny SMARTT:
               <table>
@@ -86,18 +81,10 @@
             </li>
               <h3>Ponizej jak przedstawiają się wyliczenia dla naszego najkrótszego paska (ceny z doliczonym transportem):</h3>
               <img id="smart" src="./images/smartt.png">
- 
-            <li>Woreczki z perforacją dla Beko -> Najlepszym rozwiązaniem będzie worek LDPE, z otworem zabezpieczającym. I nadrukiem. Niestety on nie będzie mieć zamykania strunowego będzie trzeba go zgrzewać, Nagrzewarka ręczna to koszt 420 pln netto. Cena woreczka – 0,68zł/1szt. MOQ – 5 tyś szt.
-            </li>
-            Aktualne koszty:<br>
-            - Torebka strunowa 300x400 - 0,20PLN<Br>
-            - Etykieta ok. 0,06 PLN<br>
-            + drukowanie i robocizna ręczna (naklejanie etykiety, dziurkowanie). <br>
-            <b>Czy drążymy temat?</b>
-            <li>AKZONOBEL farba: <br>
-              - biała klejowa -> czekamy na opracowanie <br>
-              - czarna drobna struktura + cena - > Symbol farby EN314I; Cena 3,19 €/kg; <br>
-              Dostawy po 600 kg jednorazowo – poprosimy o próbkę.        
+
+            <li>AKZONOBEL farba:
+              - biała klejowa -> czekamy na opracowanie- czarna drobna struktura + cena - > Symbol farby EN314I; Cena 3,19 €/kg - > próbka sprawdzona - > wg mnie bardzo ładna. <br>
+- zamiennik Tigera -> przetestowane YN505D; RM200M; SN860D (wg mnie ok) czekamy na test SN805G. Czekam na podanie cen od dostawcy.       
             </li>
             <li>Jotun: <br>
             - Cena  farby czarnej 23 PLN. <br>
@@ -114,59 +101,44 @@
               </tr>
             </table>
             <br>
-            Taką samą próbę wykonam naszym głównym produktem jakim jest Tiger ral 9005. Czekamy na wyniki.
+            Szuflady malowane Farbą Jotun były pokryte bardzo cienką warstwa proszku. Po polimeryzacji końcowej było pomiędzy 30 – 40 um. ,, 124 szt ,, przebijały od strony wewnętrznej.  Jest to element niewidoczny dlatego zostały spakowane jako dobre. Ale zużycie względem Tigera jest większe. Dodatkowo zużycie przy naszych ustawieniach wzrosłoby ze względu na potrzebę zwiększenia wydatku proszku i prądu. <br>
+            Nasze spostrzeżenia podczas malowania proszkiem Jotun a Tiger są następujące: <br>
+        - większe zużycie Jotuna <br>
+- więcej poprawek lakierniczych Jotunem <br>
+- trudniej poprawić detale malowanie 2-krotnie. <br>
+- słabsza rozlewność<br>
+- gorsza jakość wizualna <br>
+Odrzucamy próbkę.
           </li>
+          <li>Ściągam próbki farb pastelowych</li>
             <li>Poszukujemy firmy która będzie nam lakierować przyciski do Soft Toucha 2 .0. Na razie najtańsza oferta to 0,50 PLN za szt. <br>
               Wysłano zapytania do: <br>
-              - Gemini Tech <br>
-              - I.S.T. Sp z o.o. - <b>Wysłano próbki</b> <br>
-              - MacPrint Bis - wstępna cena 0.70 zł/szt - <b>Wysłano próbki</b> <br>
+              - Gemini Tech - brak odp.<br>
+              - I.S.T. Sp. z o.o - oferta gotowa - 0.45/szt. Filip poprosił o cenę na przyciski lakierowanie tylko z góry. Poinformowali nas że po bokach przycisków będą zacieki i będziemy musieli sobie sami to oczyszczać podczas laserowania.<br>
+              - MacPrint Bis - wstępna cena 0.7/szt próbki przycisków lakierowanych po całości wysłane 10/11 . Dodatkowo Filip poprosił o cenę na przyciski lakierowanie tylko z góry. <br>
               - Rego wronki - cena 0,55 zł/szt
             </li>
             <li>
-             <b> 10/11 godz. 13.00</b>–spotkanie z firmą AFL motors która ma w ofercie wentylatory.
-            </li>
-            <li>
-              Poszukujemy firmy na wdrożenie ISO 14001 <br>
-              Oto oferty: <br>
-              <img id="oferty" src="./images/oferty.png">
-            </li>
-            <li>
-            Nitotechnika -> poszukujemy nity 3 x 6. Czekamy na próbki.
+              Czekamy na wycenę kartonów z firmy AS kartony – otrzymali od nas próbki najbardziej rotujących rzeczy
             </li>
             <li>SUKIO INDUCTION – poprosiłam o ofertę na płyty indukcyjne indukcyjne</li>
             <li>
-              Usprawnienia w systemie - > stany minimalne będą się automatem przeliczać każdego 1 dnia miesiąca. W planie mamy uruchomienie pętli ERP aby automatem kreować zapotrzebowania do dostawców
+              W ramach obniżenia cen chcemy zmienić gramatury przekładek z gramatury 455 na 425. Temat sprawdza dz. Konstrukcyjny.
             </li>
             <li>
-            AS Kartony -> wysłałam plik do wyceny naszego całego asortymentu <b>8/11 odbierają próbki.</b>
+            Znaleźliśmy nowego dostawcę z Chin na magnes MAGNEOD10X4_5 cena -0,39 USD z dostawą, u nas 3,3 PLN. Oszczędność w skali roku ok 11 tyś (używamy 8000 szt rocznie).
             </li>
-            <li>
-              Wentelon dostaliśmy nowe próbki S8040; S8640; S9147
-sprawdzamy próbki
-              <table id="wentelon">
-                <tr>
-                  <td>S8015</td>
-                  <td>copper wire aim at B hoods</td>
-                </tr>
-                <tr>
-                  <td>S8020</td>
-                  <td>copper wire aim at B hoods</td>
-                </tr>
-              </table>
+            <li>Siltegro (nowy dostawca po targach Evertiq) – sprawdzam dostępność i ceny komponentów do naszej elektroniki ale bez podawania projektów.</li>
+            <li>Yuanjing Zhuoli Motor – sprawdzamy ceny u nowego potencjalnego dostawcy silników z Chin.
             </li>
-            <br>
-            W turbinie 6s wyniki są podobne jak te które deklaruje dostawca. Filip sprawdza też te silniki w turbinie 15SK28, później zamontuję je w okapie, przebada głośność i takie pełne porównanie podamy w raporcie. Przypomniałam temat
-        </ul>
-        <h2>Sprzedaż vs magazyn</h2>
+            <li>10/11 godz. 13.00– spotkanie z firmą AFL motors która ma w ofercie wentylatory. Po spotkaniu dz. Konstr. przesłał specyfikację GPE800.</li>
+            <li>OBZPMECH2 V2 Obudowa zestawu przełączników mechanicznych 2 wersja V2 – forma jest nieszczelna. TOT wycenia naprawę. </li>
+            <li>Forma na DOTM7S -> likwidacja przetrysku na zatyczce. TOT wycenia naprawę.</li>
+            <h2>Sprzedaż vs zakupy</h2>
           <img id="vsZak" src="./images/sVSzak.png" alt="">
-        <ul>
-          <li>Wskaźnik rotacji zapasów.
-          </li>
         </ul>
-        <img id="wrz" src="./images/wrz.png" alt="">
         <ul>
-          <li>Największe przyjęcia w 44 tygodniu.</li>
+          <li>Największe przyjęcia w 45 tygodniu.</li>
         </ul>
         <table>
           <tr>
@@ -174,303 +146,327 @@ sprawdzamy próbki
             <th>Suma z netto</th>
           </tr>
           <tr>
-            <td>FENU2</td>
-            <td>82 000,00</td>
+            <td>KONSORCJUM STALI</td>
+            <td>44 028,60</td>
           </tr>
           <tr>
-            <td>CONVEX</td>
-            <td>74 308,16</td>
+            <td>HERBETKO</td>
+            <td>38 797,75</td>
           </tr>
           <tr>
-            <td>ARMA</td>
-            <td>55 285,74</td>
+            <td>PIMETZOO</td>
+            <td>35 761,48</td>
+          </tr>
+          <tr>
+            <td>ELMAK</td>
+            <td>29 900,00</td>
           </tr>
           <tr>
             <td>WOK</td>
-            <td>33 069,93</td>
+            <td>25 689,14</td>
           </tr>
           <tr>
-            <td>REKAN</td>
-            <td>24 555,34</td>
-          </tr>
-          <tr>
-          <td>ARCELORMITTAL-SPLIT</td>
-          <td>23 763,53</td>
+          <td>CONVEX</td>
+          <td>25 666,20</td>
         </tr>
         <tr>
-          <td>NORDES - NORD ELEKTR</td>
-          <td>15 949,2O</td>
+          <td>JU-PITER JACEK</td>
+          <td>22 323,00</td>
         </tr>
         <tr>
-          <td>HERBETKO</td>
-          <td>12 526,25</td>
+          <td>ZANNINI</td>
+          <td>21 447,00</td>
         </tr>
         <tr>
-          <td>PIMETZOO</td>
-          <td>12 446,12</td>
+          <td>TOT ZEMBRZUSKI</td>
+          <td>20 630,00</td>
         </tr>
         <tr>
-          <td>TIGER</td>
-          <td>12 319,51</td>
+          <td>NORDE - NORD ELEKTR</td>
+          <td>17 551,60</td>
         </tr>
         <tr>
-          <td>PROTECH OXYPLAST</td>
-          <td>11 880,00</td>
-        </tr>
-        <tr>
-          <td>KONSORCJUM STALI</td>
-          <td>9 794,40</td>
+          <td>HSV POLSKA</td>
+          <td>11 694,00</td>
         </tr>
       </table>
     </p>
  
     </section>
 
-    <!-- Quality control section -->
-
-    <section class="qc" id="qc">
-      <h1>Kontrola Jakości</h1>
-      <p>
-        <ul>
-        <li>
-          Wykonano badanie palności:<Br>
-            Sprawozdanie BPI-55_2022 – DOTM6S, NOPRC3-P  – warunkowa akceptacja- zapalenie bibułki; NOPRC3-O, SMIGTUM15S59, SMIGTUM15S18, DYST-K28, SKRZ-15S, FWMGPZ  - niepalne
-          </li>
-        <li>
-          Reklamacje otwarte:<br>
-            LUKKA – 2 017,65 PLN (oczekujemy na dostawę – wysłano przypomnienie)<Br>
-            LUKKA – 2 259,65 PLN (wysłane zgłoszenie)<br>
-            GUANGDONG – 1307,54 PLN (do zweryfikowania otrzymane części)<Br>
-            WENTELON – 13 610,30 PLN (wysłano zgłoszenie)<br>
-            JU-PITER – 3 154,48 PLN (wysłano zgłoszenie)<br>
-            ASMET2 – 162,98 PLN (wysłano zgłoszenie)<br>
-            CONVEX – 9537,03 PLN (oczekuje na rozpatrzenie)
-          </li>
-        <li>
-          Sprawdzone:<br>
-          </li>
-        </ul>
-          <table>
-            <tr>
-              <th>Etykiety wierszy</th>
-              <th>Suma z ilość</th>
-              <th>Suma z sprawdzone</th>
-              <th>Suma z OK</th>
-              <th>Suma z NOK</th>
-            </tr>
-            <tr>
-              <td>CONVEX</td>
-                <td>646</td>
-                <td>343</td>
-                <td>335</td>
-                <td>8</td>
-            </tr>
-            <tr>
-              <td>Suma końcowa</td>
-              <td>646</td>
-              <td>343</td>
-              <td>335</td>
-              <td>8</td>
-            </tr>
-          </table>
-          <br>
-          <ul>
-            <li>Raporty z prac Pań</li>
-          </ul>
-          <Br>
+<!-- Quality control section -->
+ 
+<section class="qc" id="qc">
+  <h1>Kontrola Jakości</h1>
+  <p>
+    <ul>
+    <li>
+      Nie dostarczono towaru do wykonania testów palności. 
+      </li>
+    <li>
+      Reklamacje otwarte:<br>
+        LUKKA – 2 017,65 PLN (ramki dostarczone, oczekują na kontrolę)<Br>
+        LUKKA – 2 259,65 PLN (reklamacja odebrana)<br>
+        GUANGDONG – 1307,54 PLN (do zweryfikowania otrzymane części)<Br>
+        WENTELON – 13 610,30 PLN (wysłano zgłoszenie)<br>
+        JU-PITER – 3 154,48 PLN (oczekuje na rozliczenie)<br>
+        ASMET2 – 162,98 PLN (oczekuje na rozpatrzenie)<br>
+        CONVEX – 9537,03 PLN (oczekuje na rozpatrzenie)
+      </li>
+    <li>
+      Sprawdzone:<br>
+      </li>
+    </ul>
+      <table>
+        <tr>
+          <th>Etykiety wierszy</th>
+          <th>Suma z ilość</th>
+          <th>Suma z sprawdzone</th>
+          <th>Suma z OK</th>
+          <th>Suma z NOK</th>
+        </tr>
+        <tr>
+          <td>CONVEX</td>
+            <td>2486</td>
+            <td>732</td>
+            <td>717</td>
+            <td>15</td>
+        </tr>
+        <tr>
+          <td>WMGLASS</td>
+            <td>200</td>
+            <td>35</td>
+            <td>33</td>
+            <td>2</td>
+        </tr>
+        <tr>
+          <td>Suma końcowa</td>
+          <td>2686</td>
+          <td>767</td>
+          <td>750</td>
+          <td>17</td>
+        </tr>
+      </table>
+      <br>
+      <ul>
+        <li>Raporty z prac Pań</li>
+      </ul>
+      <Br>
 <table>
-  <tr>
-    <th>LIUDMILA</th>
-    <th>02.lis</th>
-    <th>03.lis</th>
-    <th>04.lis</th>
-    <th>Suma</th>
-    <th>Uwagi</th>
-  </tr>
-  <tr>
-    <td>Szyby</td>
-    <td>3,00</td>
-    <td>4,00</td>
-    <td>2,50</td>
-    <td>9,50</td>
-    <td rowspan="6">Sprawdzone 876 szyb<br>
-      (średnia: 76 sek/szt)</td>
-  </tr>
-  <tr>
-    <td>Przegląd szyb reklamacyjnych</td>
-    <td></td>
-    <td></td>
-    <td>0,50</td>
-    <td>0,50</td>
-  </tr>
-  <tr>
-    <td>Cięcie</td>
-    <td>2,25</td>
-    <td>5,50</td>
-    <td></td>
-    <td>7,75</td>
-    
-  </tr>
-  <tr>
-    <td>Inspekcja okapów</td>
-    <td>4,25</td>
-    <td></td>
-    <td>4,75</td>
-    <td>9,00</td>
-  </tr>
-  <tr>
-    <td>Testy palności</td>
-    <td></td>
-    <td></td>
-    <td>1,75</td>
-    <td>1,75</td>
-  </tr>
-  <tr>
-    <td>Przerwa</td>
-    <td>0,50</td>
-    <td>0,50</td>
-    <td>0,50</td>
-    <td>1,50</td>
-  </tr>
-  <tr>
-    <td>SUMA</td>
-    <td>10,00</td>
-    <td>10,00</td>
-    <td>10,00</td>
-    <td>30,00</td>
-    <td></td>
-  </tr>
+<tr>
+<th>LIUDMILA</th>
+<th>07.lis</th>
+<th>08.lis</th>
+<th>09.lis</th>
+<th>10.lis</th>
+<th>Suma</th>
+<th>Uwagi</th>
+</tr>
+<tr>
+<td>Szyby</td>
+<td>3,25</td>
+<td>6,50</td>
+<td>7,50</td>
+<td>9,00</td>
+<td>26,25</td>
+<td rowspan="6">Sprawdzone 767 szyb<br>
+  (średnia: 123 sek/szt)</td>
+</tr>
+<tr>
+<td>Przegląd szyb reklamacyjnych</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>0,00</td>
+</tr>
+<tr>
+<td>Marcopol</td>
+<td></td>
+<td>0,50</td>
+<td>0,50</td>
+<td>0,50</td>
+<td>1,50</td>
+</tr>
+<tr>
+<td>Inspekcja okapów</td>
+<td>4,25</td>
+<td>2,50</td>
+<td>1,50</td>
+<td></td>
+<td>8,25</td>
+</tr>
+<tr>
+<td>Testy palności</td>
+<td>2,00</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2,00</td>
+</tr>
+<tr>
+<td>Przerwa</td>
+<td>0,50</td>
+<td>0,50</td>
+<td>0,50</td>
+<td>0,50</td>
+<td>2,00</td>
+</tr>
+<tr>
+<td>SUMA</td>
+<td>10,00</td>
+<td>10,00</td>
+<td>10,00</td>
+<td>10,00</td>
+<td>40,00</td>
+<td></td>
+</tr>
 </table>
 <ul>
-  <br>
-  <li>Raport z firmy ARCONET</li>
-  <br>
+<br>
+<li>Raport z firmy ARCONET</li>
+<br>
 </ul>
 <table>
-  <tr>
-    <td>łączna ilość napraw (listopad)</td>
-    <td>31</td>
-    <td>zleceń</td>
-  </tr>
-  <tr>
-    <td>łączny koszt napraw</td>
-    <td>9597,87</td>
-    <td>zł netto</td>
-  </tr>
-  <tr>
-    <td>średni koszt jednego zlecenia</td>
-    <td>309,61</td>
-    <td>zł netto</td>
-  </tr>
-  <tr>
-    <td>średni czas napraw</td>
-    <td>16,4</td>
-    <td>dnia</td>
-  </tr>
-  <tr>
-    <td>pozostała ilość otwartych zleceń</td>
-    <td>71</td>
-    <td>zlecenia</td>
-  </tr>
+<tr>
+<td>łączna ilość napraw (listopad)</td>
+<td>31</td>
+<td>zleceń</td>
+</tr>
+<tr>
+<td>łączny koszt napraw</td>
+<td>9597,87</td>
+<td>zł netto</td>
+</tr>
+<tr>
+<td>średni koszt jednego zlecenia</td>
+<td>309,61</td>
+<td>zł netto</td>
+</tr>
+<tr>
+<td>średni czas napraw</td>
+<td>16,4</td>
+<td>dnia</td>
+</tr>
+<tr>
+<td>pozostała ilość otwartych zleceń</td>
+<td>88</td>
+<td>zlecenia</td>
+</tr>
 </table>
 <br>
 <ul>
-  <li>
-    Stan na magazynach reklamacyjnych
-  </li>
+<li>
+Stan na magazynach reklamacyjnych
+</li>
 </ul>
 <br>
 <table>
-  <tr>
-    <th>Magazyn</th>
-    <th>44 tydzień 2022</th>
-  </tr>
-  <tr>
-    <td>RREKL (magazyn reklamacyjny zaopatrzenie - do zgłoszenia)</td>
-    <td>22 466,22</td>
-  </tr>
-  <tr>
-    <td>DREK (reklamacje wysłane do dostawców)</td>
-    <td>22 349,62</td>
-  </tr>
-  <tr>
-    <td>DREKCONVEX</td>
-    <td>6 029,51</td>
-  </tr>
-  <tr>
-    <td>DREKWMGLASS</td>
-    <td>0,00</td>
-  </tr>
-  <tr>
-    <td>KJ (nieuznana reklamacja Convex)</td>
-    <td>0,00</td>
-  </tr>
-  <tr>
-    <td>SUMA</td>
-    <td>50 845,35</td>
-  </tr>
-  <tr>
-    <td>różnica</td>
-    <td>223,16</td>
-  </tr>
+<tr>
+<th>Magazyn</th>
+<th>45 tydzień 2022</th>
+</tr>
+<tr>
+<td>RREKL (magazyn reklamacyjny zaopatrzenie - do zgłoszenia)</td>
+<td>14 747,52</td>
+</tr>
+<tr>
+<td>DREK (reklamacje wysłane do dostawców)</td>
+<td>22 349,62</td>
+</tr>
+<tr>
+<td>DREKCONVEX</td>
+<td>9 546,72</td>
+</tr>
+<tr>
+<td>DREKWMGLASS</td>
+<td>0,00</td>
+</tr>
+<tr>
+<td>KJ (nieuznana reklamacja Convex)</td>
+<td>0,00</td>
+</tr>
+<tr>
+<td>SUMA</td>
+<td>46 643,86</td>
+</tr>
+<tr>
+<td>różnica</td>
+<td>-4 201,49</td>
+</tr>
 </table>
 <table>
-  <tr>
-    <th>Dokument</th>
-    <th>Źródłowy</th>
-    <th>Docelowy</th>
-    <th>Netto</th>
-    <th>Opis</th>
-  </tr>
-  <tr>
-    <td>MMP-280/22/REK</td>
-    <td>RREKL</td>
-    <td>DREKCONVEX</td>
-    <td>6029,15</td>
-    <td>RLZ-65-68</td>
-  </tr>
-  <tr>
-    <td>MMP-281/22/REK</td>
-    <td>PMWTP</td>
-    <td>RREKL</td>
-    <td>223,16</td>
-    <td>Reklamacja z produkcji - FILTRY ALU</td>
-  </tr>
-  </table>
-  </p>
-    </section>
+<tr>
+<th>Dokument</th>
+<th>Źródłowy</th>
+<th>Docelowy</th>
+<th>Netto</th>
+<th>Opis</th>
+</tr>
+<tr>
+<td>MMP-282/22/REK</td>
+<td>RREKL</td>
+<td>MWSP2</td>
+<td>706,06</td>
+<td>dopuszczone szyby P3</td>
+</tr>
+<tr>
+<td>MMP-283/22/REK</td>
+<td>RREKL</td>
+<td>MWSP2</td>
+<td>1006,76</td>
+<td>dopuszczone szyby P1</td>
+</tr>
+<tr>
+<td>MMP-284/22/REK</td>
+<td>RREKL</td>
+<td>DREKCONVEX</td>
+<td>3517,21</td>
+<td>RLZ-65-68</td>
+</tr>
+<tr>
+<td>MMP-285/22/REK</td>
+<td>RREKL</td>
+<td>PMWTP</td>
+<td>1407,88</td>
+<td>brak widocznych wad.</td>
+</tr>
+</table>
+</p>
+</section>
 
-    <!-- Warehouse section -->
+<!-- Warehouse section -->
 
-    <section class="warehouse" id="warehouse">
-      <h1>Magazyn</h1>
-      <p>
-        <li>W tym tygodniu nie ma planowanych urlopów.
-          </li>
-          <li>
-            W dalszym ciągu szukamy magazyniera . Pan który miał u nas pracować w ostatniej chwili zrezygnował. <br>
-            Poszukujemy też kierowcy miedzy-magazynowego.
+<section class="warehouse" id="warehouse">
+  <h1>Magazyn</h1>
+  <p>
+    <li>W tym tygodniu nie ma planowanych urlopów.
+      </li>
+      <li>
+        W piątek na rozmowę był Pan na magazyniera. Podpisał list intencyjny i według ustaleń powinien zacząć u nas pracę w grudniu.
+    </li>
+        <li>PZ -> Przyjęcia zewnętrze robione na bieżąco - brak zaległości.
         </li>
-            <li>PZ -> Przyjęcia zewnętrze robione na bieżąco- mamy do przyjęcia 2 dostawy z piątku. W poniedziałek rano to przyjmiemy. 
-            </li>
-            <li>WZK -> robione na bieżąco, brak zaległości
-            </li>
-            <li>
-            ZWM -> dokumenty które są  to dokumenty do wysyłki w poniedziałek i wtorek. 1 ZWM to dokument do wysłania ale nie mamy towaru.
-            </li>
-            <li>
-            PW -> jest 1 dokument. Piotrek w poniedziałek przyjmie ten towar.
-            </li>
-            <li>RW- wydawane na bieżąco, brak zaległości.</li>
-            <li>MMW -> brak zaległości.
-            </li>
-            <li>MMP -> okapy staramy się  przyjmować na bieżąco. Zrobiono 5 zwrotów z produkcji na szyby. Postaramy się to przyjąć w poniedziałek          
-            </li>
-            <li>Wydania, realizowane według ustaleń.
-            </li>
-            <li>W zależności od ilości pracy, postaramy się by w tym tygodniu policzyć filtry (inwentaryzacje).</li>
-      </p>
-    </section>
-    <script src="./js/script.js"></script>
+        <li>WZK -> robione na bieżąco, brak zaległości
+        </li>
+        <li>
+          ZWM- dokumenty które są  to dokumenty do wysyłki w poniedziałek. 2Fenu to art.-dom (poniedziałek) i Cisek (geis) poniedziałek.
+        </li>
+        <li>
+          PW- jest 7 dokumentów. Piotrek w poniedziałek przyjmie 1. A ja z Kubą te 6 pozostałe rozpiszemy do wtorku.
+        </li>
+        <li>RW- Do wydania jeden dokument – w poniedziałek będzie zrealizowane </li>
+        <li>MMW - na mwsp2 brak zaległości 
+        </li>
+        <li>MMP -> okapy staramy się  przyjmować na bieżąco. Zrobiono 1 zwrot z produkcji - przyjmiemy to jutro.         
+        </li>
+        <li>Wydania, realizowane według ustaleń.
+        </li>
+        <li>Filtry aluminiowe mamy policzone- teraz weryfikujemy to z produkcją, lecz musimy czekać z niektórymi pozycjami na rozliczenie produkcji.</li>
+        <li>
+          Załadunki – w tym tygodniu powinno trochę wyjechać. Na poniedziałek jesteśmy gotowi z 2xART DOM i TERG. Do naszykowania został ostatni ART.-DOM- lecz na tą chwilę nie mamy miejsca. 
+        </li>
+  </p>
+</section>
   </body>
 </html>
